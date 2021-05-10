@@ -1,0 +1,17 @@
+{        
+    "name": "DatoshCode", //Имя темы
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Andrei Ovcharov", //имя автора темы
+   "contributes": {
+        "themes": [
+            {
+                "label": "DatoshCode",
+                "uiTheme": "vs-dark", // use "vs" to select the light UI theme
+                "path": "./themes/DatoshCode.tmTheme" //указываем путь к нашему файлу темы
+            }
+        ]
+    }
+}
